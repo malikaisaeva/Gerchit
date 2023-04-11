@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Cormorant Garamond', serif;
     font-family: 'Open Sans', sans-serif;
-    cursor: url("myimage.png"), pointer;
+    cursor: grab;
     scroll-behavior: smooth;
 }
 
@@ -614,7 +614,7 @@ button {
 }
 
 .customers {
-    height: 800px;
+    height: 850px;
     background: black;
 }
 
@@ -685,4 +685,50 @@ button {
     font-family: 'Open Sans';
     color: #F5EFDB;
     font-weight: normal;
+}
+
+
+.reklama {
+    height: 800px;
+    background: url(../video/-153221.mp4);
+}
+
+.reklama .video {
+    position: relative;
+}
+
+video {
+    position: absolute;
+    z-index: 0;
+}
+
+.reklama-image {
+    position: absolute;
+    z-index: 1;
+}
+
+.container #circle-2 {
+    left: 100px;
+    position: relative;
+    top: 70px;
+    transition: all 1s ease;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+}
+
+#circle-2:hover {
+    transform: rotate(-360deg);
+}
+
+.play {
+    position: absolute;
+    left: 700px;
+    margin-top: 400px;
+    transition: all 1s ease;
+}
+
+.play:hover {
+    transform: scale(1.2);
+
 }
