@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family: 'Cormorant Garamond', serif;
     font-family: 'Open Sans', sans-serif;
+    cursor: url("myimage.png"), pointer;
+    scroll-behavior: smooth;
 }
 
 .promo {
@@ -158,6 +160,7 @@
 
 .info-image img {
     position: absolute;
+
 }
 
 .info-image:hover .box{
@@ -173,6 +176,10 @@
     margin-top: 40px;
     color: aliceblue;
     display: flex;
+}
+
+.data p {
+    margin-left: 700px;
     
 }
 
@@ -182,6 +189,31 @@
 
 .data p:active {
     color: cadetblue;
+}
+
+.scrol {
+    margin-left: 480px;
+    margin-top: -70px;
+}
+
+.scrol img {
+    margin-left: 50px;
+}
+
+.scrol a {
+    color: #DCCA87;
+    font-weight: normal;
+    font-size: 30px;
+    font-family: 'Cormorant Upright';
+    margin-top: 50px;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+.scrol a:hover {
+    color: cadetblue;
+    transform: scale(1.2);
+
 }
 
 
@@ -517,4 +549,140 @@ button {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.chef {
+    height: 800px;
+    background: url(../img/Mask\ Group\ \(1\).png);
+}
+
+.chef .container {
+    display: flex;
+    margin-left: 300px;
+    padding-top: 150px;
+}
+
+.chef-text {
+    margin-left: -150px;
+    margin-top: 50px;
+}
+
+.bio {
+    margin-top: 10px;
+    font-weight: normal;
+    color: aliceblue;
+    display: flex;
+    gap: 10px;
+}
+
+.chef-text h4 {
+    color: #F5EFDB;
+    font-weight: normal;
+    font-family: 'Cormorant Upright';
+}
+
+.chef-text h2 {
+    color: #DCCA87;
+    font-weight: normal;
+    font-family: 'Cormorant Upright';
+    font-size: 45px;
+}
+
+.chef-text p {
+    color: #AAAA;
+    
+}
+
+
+.kevin {
+    margin-top: 40px;
+}
+
+.kevin h3 {
+    color:#DCCA87;
+    font-weight: normal;
+    font-family: 'Cormorant Upright';
+    font-size: 25px;
+}
+
+.kevin p {
+    margin-top: 10px;
+}
+
+.kevin img {
+    margin-top: 10px;
+}
+
+.customers {
+    height: 800px;
+    background: black;
+}
+
+.customers-bio {
+    text-align: center;
+    color: #F5EFDB;
+    margin-top: 80px;
+}
+
+.customers-bio h6 {
+    font-weight: normal;
+    font-family: 'Cormorant Upright';
+    font-size: 15px;
+}
+
+.customers-bio h2 {
+    font-weight: normal;
+    color: #DCCA87;
+    font-family: 'Cormorant Upright';
+    font-size: 40px;
+}
+
+.boss {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.customer-face #kov {
+    margin-left: -30px;
+    padding-top: -60px;
+}
+
+.customer-persons {
+    display: flex;
+    margin-top: 50px;
+}
+
+.cust-pr {
+    display: block;
+}
+
+.customer-first {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+
+.customer-text {
+    color: #F5EFDB;
+}
+
+.customer-text p {
+    font-weight: normal;
+    color: #AAAA;
+}
+
+.customer-text h2 {
+    font-family: 'Cormorant Upright';
+    font-weight: normal;
+    color: #DCCA87;
+}
+
+.customer-text h5 {
+    font-family: 'Open Sans';
+    color: #F5EFDB;
+    font-weight: normal;
 }
