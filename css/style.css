@@ -732,3 +732,73 @@ video {
     transform: scale(1.2);
 
 }
+
+.laurels{
+    height: 600px;
+    background: url(../img/Mask\ Group\ \(1\).png);
+}
+
+.registr {
+    padding-top: 60px;
+    color: aliceblue;
+}
+
+.registr .container {
+    display: flex;
+    justify-content: center;
+}
+
+.laurels-about {
+    display: flex;
+    padding-top: 50px;
+    margin-left: -40px;
+}
+
+.registr h5 {
+    font-weight: normal;
+    color: aliceblue;
+    font-family: 'Cormorant Upright';
+}
+
+.registr h3 {
+    font-weight: normal;
+    font-family: 'Cormorant Upright';
+    font-size: 45px;
+    color: #DCCA87;
+}
+
+.menu-steps {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.steps {
+    display: flex;
+    gap: 10px;
+}
+
+.steps h4 {
+    font-weight: normal;
+    font-family: 'Cormorant Upright';
+    color: #DCCA87;
+    font-size: 20px;
+    
+}
+
+.steps p {
+    font-family: 'Open Sans';
+    font-weight: normal;
+    color: #AAAA;
+}
+
+
+
+#g {
+    margin-left: -350px;
+}
+
+.laurels-picture {
+    margin-left: -70px;
+    margin-top: 50px;
+}
