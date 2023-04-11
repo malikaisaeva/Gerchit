@@ -8,7 +8,7 @@
 
 .promo {
     background: black;
-    height: 1200px;
+    height: 800px;
 }
 
 .header {
@@ -22,10 +22,12 @@
     font-style: normal;
     font-weight: normal;
     font-size: 44px;
+    transition: all 1s ease;
 }
 
 .logo h1:hover {
     color: burlywood;
+    transform: scale(1.2);
 }
 
 .logo h1:active {
@@ -109,7 +111,8 @@
     border-radius: 5px;
     border: none;
     background: #DCCA87;
-    padding: 10px;
+    padding: 3px;
+    height: 35px;
     font-weight: bold;
     font-family: 'Cormorant Upright';
 }
@@ -120,6 +123,10 @@
 
 .info button:active {
     background: bisque;
+}
+
+.info-text {
+    margin-top: 100px;
 }
 
 .info-image {
@@ -160,4 +167,354 @@
 .info-image:hover .box-1{
     top: -20px;
     right: -10px;
+}
+
+.data {
+    margin-top: 40px;
+    color: aliceblue;
+    display: flex;
+    
+}
+
+.data p:hover {
+    color: #DCCA87;
+}
+
+.data p:active {
+    color: cadetblue;
+}
+
+
+.about{
+    background:  url(../img/Mask\ Group\ \(1\).png) no-repeat;
+    height: 940px;
+    padding-top: 150px;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.history {
+    display: flex;
+    background: url(../img/G.png) no-repeat center;
+}
+
+
+.first-history {
+    margin-top: 170px;
+    color: #DCCA87;
+    margin-left: 150px;
+}
+
+.first-history h2 {
+    font-weight: normal;
+    font-family: 'Cormorant Upright';
+    font-size: 35px;
+    margin-left: 260px;
+}
+
+.first-history p {
+    font-family: 'Open Sans';
+    color: darkgray;
+    text-align: start;
+}
+
+.first-history img {
+    margin-left: 350px;
+}
+
+.first-history button {
+    padding: 10px;
+    background: #DCCA87;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-family: 'Cormorant Upright';
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+button:hover {
+    background: cadetblue;
+}
+
+button:active {
+    background: antiquewhite;
+}
+
+.third-history {
+    margin-top: 170px;
+    color: #DCCA87;
+    
+}
+
+.third-history h2 {
+    font-weight: normal;
+    font-family: 'Cormorant Upright';
+    font-size: 35px;
+    margin-left: -270px;
+}
+
+.third-history p {
+    font-family: 'Open Sans';
+    color: darkgray;
+    text-align: start;
+}
+
+.third-history img {
+    margin-left: -350px;
+}
+
+.third-history button {
+    padding: 10px;
+    background: #DCCA87;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-family: 'Cormorant Upright';
+    margin-top: 20px;
+    margin-left: -300px;
+}
+
+button:hover {
+    background: cadetblue;
+}
+
+button:active {
+    background: antiquewhite;
+}
+
+.books {
+    background: black;
+    height: 700px;
+}
+
+.books #st {
+    margin-left: 1200px;
+    margin-top: -40px;
+}
+
+.container #circle {
+    margin-left: 1200px;
+    position: relative;
+    margin-top: -30px;
+    transition: all 1s ease;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+}
+
+#circle:hover {
+    transform: rotate(-360deg);
+}
+
+.container #cl {
+    position: absolute;
+    margin-left: -105px;
+    margin-top: 7px;
+}
+
+
+.library {
+    width: 600px;
+    height: 400px;
+    padding-top: 40px;
+}
+
+.title {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 80px;
+    border: 2px solid #DCCA87;
+    width: 840px;
+    height: 340px;
+    margin-left: -70px;
+}
+
+.title h4 {
+    font-family: 'Cormorant Upright';
+    font-weight: normal;
+    margin-top: 25px;
+}
+
+.title h2 {
+    font-family: 'Cormorant Upright';
+    font-weight: normal;
+    font-size: 40px;
+    color: #DCCA87;
+}
+
+.inputs {
+    display: flex;
+    gap: 10px;
+    padding-top: 50px;
+}
+
+
+select {
+    background: chocolate;
+    color: aliceblue;
+    border: 1px solid #DCCA87;
+    width: 200px;
+    height: 35px;
+    font-size: normal;
+    font-family: 'Cormorant Upright';
+}
+
+option {
+        color: #F5EFDB;
+        background: black;
+        font-family: 'Cormorant Upright';
+}
+
+input {
+    background:chocolate;
+    color: aliceblue;
+    width: 180px;
+    height: 35px;
+    border: 1px solid #DCCA87;
+}
+
+button {
+    margin-top: 50px;
+    border: none;
+    background: #DCCA87;
+    color: black;
+    padding: 10px;
+    width: 90px;
+    border-radius: 5px;
+    font-family: 'Cormorant Upright';
+}
+
+.menu {
+    background: url(../img/Mask\ Group\ \(2\).png);
+    height: 800px;
+    padding-top: 50px;
+}
+
+.menu .container #circle {
+    margin-left: 50px;
+    transition: all 1s ease;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+}
+
+.menu-text {
+    margin-top: 200px;
+    color: #F5EFDB;
+    padding-left: 270px;
+    overflow: hidden;
+}
+
+.menu-text h2 {
+    font-family: 'Cormorant Upright';
+    font-size: 40px;
+    font-weight: normal;
+    transition: all 1s ease;
+}
+
+.menu-text h2:hover {
+    transform: scale(1.2);
+    color: #DCCA87;
+    
+}
+
+#circle:hover {
+    transform: rotate(-360deg);
+}
+
+.special-menu {
+    background: black;
+    color: aliceblue;
+    height: 800px;
+    
+}
+
+.special-text {
+    text-align: center;
+    padding-top: 130px;
+}
+
+.special-text h4 {
+    font-weight: normal;
+    font-family: 'Cormorant Upright';
+}
+
+.special-text h2 {
+    font-weight: normal;
+    font-family: 'Cormorant Upright';
+    font-size: 40px;
+    color: #DCCA87;
+}
+
+.wine {
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+.bot {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.wine-menu-cocktails {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 90px;
+}
+
+.wine-menu h2 {
+    font-weight: normal;
+    font-family: 'Cormorant Upright';
+    text-align: center;
+
+}
+
+.bot h4 {
+    font-weight: normal;
+    color: #DCCA87;
+    font-family: 'Cormorant Upright';
+}
+
+.chs {
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.chs h5 {
+    font-weight: normal;
+    font-family: 'Open Sans';
+}
+
+.bot img {
+    margin-top: 10px;
+    
+}
+
+.cocktail-menu h2 {
+    font-weight: normal;
+    font-family: 'Cormorant Upright';
+    text-align: center;
+
+}
+
+.chs-2 {
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.chs-2 h5 {
+    font-weight: normal;
+    font-family: 'Open Sans';
+    margin-left: 15px;
+}
+
+.button {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
